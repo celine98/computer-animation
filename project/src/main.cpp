@@ -85,9 +85,11 @@ void display_interface();
 void compute_deformation();
 void update_new_content(mesh const& shape, GLuint texture_id);
 
+void key_callback(GLFWwindow* window, int key, int scancode, int action, int mods);
 
-
-
+bool marinewalk = false;
+bool marineidle = true;
+bool marinerun = false;
 
 int main(int, char* argv[])
 {
@@ -131,7 +133,7 @@ int main(int, char* argv[])
 		if(user.gui.display_frame)
 			draw(user.global_frame, scene);
 		
-
+		glfwSetKeyCallback(window, key_callback);
 		display_interface();
 		compute_deformation();
 		display_scene();
@@ -164,12 +166,22 @@ void initialize_data()
 	user.gui.display_frame = false;
 	scene.camera.distance_to_center = 2.5f;
 
-	mesh shape;
-	load_cylinder(skeleton_data, rig, shape);
-	load_animation_bend_zx(skeleton_data.animation_geometry_local, 
+
+	mesh new_shape;
+	GLuint texture_id = mesh_drawable::default_texture;
+
+	load_skinning_data("assets/marine/", skeleton_data, rig, new_shape, texture_id);
+	load_skinning_anim("assets/marine/anim_idle/", skeleton_data);
+	// load_marine(skeleton_data, rig, shape);
+	/* load_animation_bend_zx(skeleton_data.animation_geometry_local, 
 		skeleton_data.animation_time, 
-		skeleton_data.parent_index);
-	update_new_content(shape, texture_white);
+		skeleton_data.parent_index); */
+
+	normalize_weights(rig.weight);
+	float const scaling = 0.005f;
+	for (auto& p : new_shape.position) p *= scaling;
+	skeleton_data.scale(scaling);
+	update_new_content(new_shape, texture_id);
 }
 
 void compute_deformation()
@@ -280,6 +292,8 @@ void display_interface()
 
 	mesh new_shape;
 	bool update = false;
+
+	/*
 	ImGui::Text("Cylinder"); ImGui::SameLine();
 	bool const cylinder_bend_z = ImGui::Button("Bend z###CylinderBendZ");  ImGui::SameLine();
 	if (cylinder_bend_z) {
@@ -323,25 +337,27 @@ void display_interface()
 		load_animation_twist_x(skeleton_data.animation_geometry_local, 
 			skeleton_data.animation_time, 
 			skeleton_data.parent_index);
-	}
+	}*/ 
 
 	ImGui::Text("Marine"); ImGui::SameLine();
-	bool const marine_run = ImGui::Button("Run"); ImGui::SameLine();
-	bool const marine_walk = ImGui::Button("Walk"); ImGui::SameLine();
-	bool const marine_idle = ImGui::Button("Idle");
+	
+	bool const marine_run = marinerun;
+	bool const marine_walk = marinewalk;
+	bool const marine_idle = marineidle;
 
 	GLuint texture_id = mesh_drawable::default_texture;
-	if (marine_run || marine_walk || marine_idle) load_skinning_data("assets/marine/", skeleton_data, rig, new_shape, texture_id);
-	if(marine_run) load_skinning_anim("assets/marine/anim_run/", skeleton_data);
-	if(marine_walk) load_skinning_anim("assets/marine/anim_walk/", skeleton_data);
-	if(marine_idle) load_skinning_anim("assets/marine/anim_idle/", skeleton_data);
-	if (marine_run || marine_walk || marine_idle) {
+	// if (marine_run || marine_walk || marine_idle) load_skinning_data("assets/marine/", skeleton_data, rig, new_shape, texture_id);
+	// if(marine_run) load_skinning_anim("assets/marine/anim_run/", skeleton_data);
+	// if(marine_walk) load_skinning_anim("assets/marine/anim_walk/", skeleton_data);
+	/* if(marine_idle) load_skinning_anim("assets/marine/anim_idle/", skeleton_data);
+	
+	if (marine_idle) {
 		update=true;
 		normalize_weights(rig.weight);
 		float const scaling = 0.005f;
 		for(auto& p: new_shape.position) p *= scaling;
 		skeleton_data.scale(scaling);
-	}
+	}*/
 
 	if (update) 
 		update_new_content(new_shape, texture_id);
@@ -383,6 +399,37 @@ void opengl_uniform(GLuint shader, scene_environment const& current_scene)
 	opengl_uniform(shader, "projection", current_scene.projection);
 	opengl_uniform(shader, "view", scene.camera.matrix_view());
 	opengl_uniform(shader, "light", scene.light, false);
+}
+
+void key_callback(GLFWwindow* window, int key, int scancode, int action, int mods) {
+	// TO DO
+	if (key == GLFW_KEY_W && action == GLFW_PRESS) {
+		std::cout << "Walk" << std::endl; 
+		mesh new_shape;
+		GLuint texture_id = mesh_drawable::default_texture;
+
+		load_skinning_data("assets/marine/", skeleton_data, rig, new_shape, texture_id);
+		load_skinning_anim("assets/marine/anim_run/", skeleton_data);
+		normalize_weights(rig.weight);
+		float const scaling = 0.005f;
+		for (auto& p : new_shape.position) p *= scaling;
+		skeleton_data.scale(scaling);
+		// update_new_content(new_shape, texture_id);
+	}
+
+	if (key == GLFW_KEY_S && action == GLFW_PRESS) {
+		std::cout << "Walk" << std::endl;
+		mesh new_shape;
+		GLuint texture_id = mesh_drawable::default_texture;
+
+		load_skinning_data("assets/marine/", skeleton_data, rig, new_shape, texture_id);
+		load_skinning_anim("assets/marine/anim_idle/", skeleton_data);
+		normalize_weights(rig.weight);
+		float const scaling = 0.005f;
+		for (auto& p : new_shape.position) p *= scaling;
+		skeleton_data.scale(scaling);
+		update_new_content(new_shape, texture_id);
+	}
 }
 
 
