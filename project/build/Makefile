@@ -67,10 +67,10 @@ RM = /usr/local/Cellar/cmake/3.19.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/celinehajjar/Desktop/3A/inf585/master/scenes/inf585/00_introduction
+CMAKE_SOURCE_DIR = /Users/celinehajjar/Desktop/3A/inf585/master/scenes/inf585/06_skinning
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/celinehajjar/Desktop/3A/inf585/master/scenes/inf585/00_introduction/build
+CMAKE_BINARY_DIR = /Users/celinehajjar/Desktop/3A/inf585/master/scenes/inf585/06_skinning/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -99,9 +99,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/celinehajjar/Desktop/3A/inf585/master/scenes/inf585/00_introduction/build/CMakeFiles /Users/celinehajjar/Desktop/3A/inf585/master/scenes/inf585/00_introduction/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/celinehajjar/Desktop/3A/inf585/master/scenes/inf585/06_skinning/build/CMakeFiles /Users/celinehajjar/Desktop/3A/inf585/master/scenes/inf585/06_skinning/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/celinehajjar/Desktop/3A/inf585/master/scenes/inf585/00_introduction/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/celinehajjar/Desktop/3A/inf585/master/scenes/inf585/06_skinning/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -130,17 +130,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named 00_introduction
+# Target rules for targets named 06_skinning
 
 # Build rule for target.
-00_introduction: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 00_introduction
-.PHONY : 00_introduction
+06_skinning: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 06_skinning
+.PHONY : 06_skinning
 
 # fast build rule for target.
-00_introduction/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/build
-.PHONY : 00_introduction/fast
+06_skinning/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/build
+.PHONY : 06_skinning/fast
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/glad/src/glad.o: Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/glad/src/glad.cpp.o
 
@@ -148,7 +148,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/glad/src/gla
 
 # target to build an object file
 Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/glad/src/glad.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/glad/src/glad.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/glad/src/glad.cpp.o
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/glad/src/glad.cpp.o
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/glad/src/glad.i: Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/glad/src/glad.cpp.i
@@ -157,7 +157,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/glad/src/gla
 
 # target to preprocess a source file
 Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/glad/src/glad.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/glad/src/glad.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/glad/src/glad.cpp.i
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/glad/src/glad.cpp.i
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/glad/src/glad.s: Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/glad/src/glad.cpp.s
@@ -166,7 +166,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/glad/src/gla
 
 # target to generate assembly for a file
 Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/glad/src/glad.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/glad/src/glad.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/glad/src/glad.cpp.s
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/glad/src/glad.cpp.s
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui.o: Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui.cpp.o
@@ -175,7 +175,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui.
 
 # target to build an object file
 Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui.cpp.o
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui.cpp.o
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui.i: Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui.cpp.i
@@ -184,7 +184,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui.
 
 # target to preprocess a source file
 Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui.cpp.i
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui.cpp.i
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui.s: Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui.cpp.s
@@ -193,7 +193,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui.
 
 # target to generate assembly for a file
 Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui.cpp.s
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui.cpp.s
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_demo.o: Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_demo.cpp.o
@@ -202,7 +202,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_
 
 # target to build an object file
 Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_demo.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_demo.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_demo.cpp.o
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_demo.cpp.o
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_demo.i: Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_demo.cpp.i
@@ -211,7 +211,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_
 
 # target to preprocess a source file
 Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_demo.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_demo.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_demo.cpp.i
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_demo.cpp.i
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_demo.s: Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_demo.cpp.s
@@ -220,7 +220,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_
 
 # target to generate assembly for a file
 Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_demo.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_demo.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_demo.cpp.s
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_demo.cpp.s
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_draw.o: Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_draw.cpp.o
@@ -229,7 +229,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_
 
 # target to build an object file
 Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_draw.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_draw.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_draw.cpp.o
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_draw.cpp.o
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_draw.i: Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_draw.cpp.i
@@ -238,7 +238,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_
 
 # target to preprocess a source file
 Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_draw.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_draw.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_draw.cpp.i
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_draw.cpp.i
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_draw.s: Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_draw.cpp.s
@@ -247,7 +247,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_
 
 # target to generate assembly for a file
 Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_draw.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_draw.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_draw.cpp.s
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_draw.cpp.s
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_impl_glfw.o: Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_impl_glfw.cpp.o
@@ -256,7 +256,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_
 
 # target to build an object file
 Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_impl_glfw.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_impl_glfw.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_impl_glfw.cpp.o
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_impl_glfw.cpp.o
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_impl_glfw.i: Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_impl_glfw.cpp.i
@@ -265,7 +265,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_
 
 # target to preprocess a source file
 Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_impl_glfw.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_impl_glfw.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_impl_glfw.cpp.i
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_impl_glfw.cpp.i
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_impl_glfw.s: Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_impl_glfw.cpp.s
@@ -274,7 +274,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_
 
 # target to generate assembly for a file
 Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_impl_glfw.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_impl_glfw.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_impl_glfw.cpp.s
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_impl_glfw.cpp.s
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_impl_opengl3.o: Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_impl_opengl3.cpp.o
@@ -283,7 +283,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_
 
 # target to build an object file
 Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_impl_opengl3.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_impl_opengl3.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_impl_opengl3.cpp.o
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_impl_opengl3.cpp.o
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_impl_opengl3.i: Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_impl_opengl3.cpp.i
@@ -292,7 +292,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_
 
 # target to preprocess a source file
 Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_impl_opengl3.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_impl_opengl3.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_impl_opengl3.cpp.i
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_impl_opengl3.cpp.i
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_impl_opengl3.s: Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_impl_opengl3.cpp.s
@@ -301,7 +301,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_
 
 # target to generate assembly for a file
 Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_impl_opengl3.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_impl_opengl3.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_impl_opengl3.cpp.s
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_impl_opengl3.cpp.s
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_widgets.o: Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_widgets.cpp.o
@@ -310,7 +310,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_
 
 # target to build an object file
 Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_widgets.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_widgets.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_widgets.cpp.o
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_widgets.cpp.o
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_widgets.i: Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_widgets.cpp.i
@@ -319,7 +319,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_
 
 # target to preprocess a source file
 Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_widgets.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_widgets.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_widgets.cpp.i
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_widgets.cpp.i
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_widgets.s: Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_widgets.cpp.s
@@ -328,7 +328,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_
 
 # target to generate assembly for a file
 Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_widgets.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_widgets.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_widgets.cpp.s
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/imgui/imgui_widgets.cpp.s
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/lodepng/lodepng.o: Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/lodepng/lodepng.cpp.o
@@ -337,7 +337,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/lodepng/lode
 
 # target to build an object file
 Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/lodepng/lodepng.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/lodepng/lodepng.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/lodepng/lodepng.cpp.o
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/lodepng/lodepng.cpp.o
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/lodepng/lodepng.i: Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/lodepng/lodepng.cpp.i
@@ -346,7 +346,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/lodepng/lode
 
 # target to preprocess a source file
 Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/lodepng/lodepng.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/lodepng/lodepng.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/lodepng/lodepng.cpp.i
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/lodepng/lodepng.cpp.i
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/lodepng/lodepng.s: Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/lodepng/lodepng.cpp.s
@@ -355,7 +355,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/lodepng/lode
 
 # target to generate assembly for a file
 Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/lodepng/lodepng.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/lodepng/lodepng.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/lodepng/lodepng.cpp.s
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/lodepng/lodepng.cpp.s
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/simplexnoise/simplexnoise1234.o: Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/simplexnoise/simplexnoise1234.cpp.o
@@ -364,7 +364,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/simplexnoise
 
 # target to build an object file
 Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/simplexnoise/simplexnoise1234.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/simplexnoise/simplexnoise1234.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/simplexnoise/simplexnoise1234.cpp.o
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/simplexnoise/simplexnoise1234.cpp.o
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/simplexnoise/simplexnoise1234.i: Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/simplexnoise/simplexnoise1234.cpp.i
@@ -373,7 +373,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/simplexnoise
 
 # target to preprocess a source file
 Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/simplexnoise/simplexnoise1234.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/simplexnoise/simplexnoise1234.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/simplexnoise/simplexnoise1234.cpp.i
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/simplexnoise/simplexnoise1234.cpp.i
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/simplexnoise/simplexnoise1234.s: Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/simplexnoise/simplexnoise1234.cpp.s
@@ -382,7 +382,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/simplexnoise
 
 # target to generate assembly for a file
 Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/simplexnoise/simplexnoise1234.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/simplexnoise/simplexnoise1234.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/simplexnoise/simplexnoise1234.cpp.s
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/simplexnoise/simplexnoise1234.cpp.s
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/base/basic_types/basic_types.o: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/base/basic_types/basic_types.cpp.o
@@ -391,7 +391,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/base/basic_types/basic_t
 
 # target to build an object file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/base/basic_types/basic_types.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/base/basic_types/basic_types.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/base/basic_types/basic_types.cpp.o
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/base/basic_types/basic_types.cpp.o
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/base/basic_types/basic_types.i: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/base/basic_types/basic_types.cpp.i
@@ -400,7 +400,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/base/basic_types/basic_t
 
 # target to preprocess a source file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/base/basic_types/basic_types.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/base/basic_types/basic_types.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/base/basic_types/basic_types.cpp.i
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/base/basic_types/basic_types.cpp.i
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/base/basic_types/basic_types.s: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/base/basic_types/basic_types.cpp.s
@@ -409,7 +409,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/base/basic_types/basic_t
 
 # target to generate assembly for a file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/base/basic_types/basic_types.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/base/basic_types/basic_types.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/base/basic_types/basic_types.cpp.s
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/base/basic_types/basic_types.cpp.s
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/base/error/error.o: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/base/error/error.cpp.o
@@ -418,7 +418,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/base/error/error.o: User
 
 # target to build an object file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/base/error/error.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/base/error/error.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/base/error/error.cpp.o
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/base/error/error.cpp.o
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/base/error/error.i: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/base/error/error.cpp.i
@@ -427,7 +427,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/base/error/error.i: User
 
 # target to preprocess a source file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/base/error/error.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/base/error/error.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/base/error/error.cpp.i
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/base/error/error.cpp.i
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/base/error/error.s: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/base/error/error.cpp.s
@@ -436,7 +436,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/base/error/error.s: User
 
 # target to generate assembly for a file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/base/error/error.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/base/error/error.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/base/error/error.cpp.s
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/base/error/error.cpp.s
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/base/rand/rand.o: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/base/rand/rand.cpp.o
@@ -445,7 +445,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/base/rand/rand.o: Users/
 
 # target to build an object file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/base/rand/rand.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/base/rand/rand.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/base/rand/rand.cpp.o
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/base/rand/rand.cpp.o
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/base/rand/rand.i: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/base/rand/rand.cpp.i
@@ -454,7 +454,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/base/rand/rand.i: Users/
 
 # target to preprocess a source file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/base/rand/rand.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/base/rand/rand.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/base/rand/rand.cpp.i
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/base/rand/rand.cpp.i
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/base/rand/rand.s: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/base/rand/rand.cpp.s
@@ -463,7 +463,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/base/rand/rand.s: Users/
 
 # target to generate assembly for a file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/base/rand/rand.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/base/rand/rand.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/base/rand/rand.cpp.s
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/base/rand/rand.cpp.s
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/base/string/string.o: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/base/string/string.cpp.o
@@ -472,7 +472,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/base/string/string.o: Us
 
 # target to build an object file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/base/string/string.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/base/string/string.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/base/string/string.cpp.o
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/base/string/string.cpp.o
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/base/string/string.i: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/base/string/string.cpp.i
@@ -481,7 +481,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/base/string/string.i: Us
 
 # target to preprocess a source file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/base/string/string.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/base/string/string.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/base/string/string.cpp.i
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/base/string/string.cpp.i
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/base/string/string.s: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/base/string/string.cpp.s
@@ -490,7 +490,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/base/string/string.s: Us
 
 # target to generate assembly for a file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/base/string/string.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/base/string/string.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/base/string/string.cpp.s
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/base/string/string.cpp.s
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/buffer/test/test_buffer.o: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/buffer/test/test_buffer.cpp.o
@@ -499,7 +499,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/buffer/test/t
 
 # target to build an object file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/buffer/test/test_buffer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/buffer/test/test_buffer.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/buffer/test/test_buffer.cpp.o
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/buffer/test/test_buffer.cpp.o
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/buffer/test/test_buffer.i: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/buffer/test/test_buffer.cpp.i
@@ -508,7 +508,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/buffer/test/t
 
 # target to preprocess a source file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/buffer/test/test_buffer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/buffer/test/test_buffer.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/buffer/test/test_buffer.cpp.i
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/buffer/test/test_buffer.cpp.i
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/buffer/test/test_buffer.s: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/buffer/test/test_buffer.cpp.s
@@ -517,7 +517,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/buffer/test/t
 
 # target to generate assembly for a file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/buffer/test/test_buffer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/buffer/test/test_buffer.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/buffer/test/test_buffer.cpp.s
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/buffer/test/test_buffer.cpp.s
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/buffer_stack/special_types/special_types.o: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/buffer_stack/special_types/special_types.cpp.o
@@ -526,7 +526,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/buffer_stack/
 
 # target to build an object file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/buffer_stack/special_types/special_types.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/buffer_stack/special_types/special_types.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/buffer_stack/special_types/special_types.cpp.o
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/buffer_stack/special_types/special_types.cpp.o
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/buffer_stack/special_types/special_types.i: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/buffer_stack/special_types/special_types.cpp.i
@@ -535,7 +535,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/buffer_stack/
 
 # target to preprocess a source file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/buffer_stack/special_types/special_types.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/buffer_stack/special_types/special_types.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/buffer_stack/special_types/special_types.cpp.i
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/buffer_stack/special_types/special_types.cpp.i
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/buffer_stack/special_types/special_types.s: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/buffer_stack/special_types/special_types.cpp.s
@@ -544,7 +544,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/buffer_stack/
 
 # target to generate assembly for a file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/buffer_stack/special_types/special_types.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/buffer_stack/special_types/special_types.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/buffer_stack/special_types/special_types.cpp.s
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/buffer_stack/special_types/special_types.cpp.s
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/buffer_stack/test/test_buffer_stack.o: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/buffer_stack/test/test_buffer_stack.cpp.o
@@ -553,7 +553,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/buffer_stack/
 
 # target to build an object file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/buffer_stack/test/test_buffer_stack.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/buffer_stack/test/test_buffer_stack.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/buffer_stack/test/test_buffer_stack.cpp.o
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/buffer_stack/test/test_buffer_stack.cpp.o
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/buffer_stack/test/test_buffer_stack.i: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/buffer_stack/test/test_buffer_stack.cpp.i
@@ -562,7 +562,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/buffer_stack/
 
 # target to preprocess a source file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/buffer_stack/test/test_buffer_stack.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/buffer_stack/test/test_buffer_stack.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/buffer_stack/test/test_buffer_stack.cpp.i
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/buffer_stack/test/test_buffer_stack.cpp.i
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/buffer_stack/test/test_buffer_stack.s: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/buffer_stack/test/test_buffer_stack.cpp.s
@@ -571,7 +571,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/buffer_stack/
 
 # target to generate assembly for a file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/buffer_stack/test/test_buffer_stack.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/buffer_stack/test/test_buffer_stack.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/buffer_stack/test/test_buffer_stack.cpp.s
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/buffer_stack/test/test_buffer_stack.cpp.s
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/grid/test/test_grid.o: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/grid/test/test_grid.cpp.o
@@ -580,7 +580,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/grid/test/tes
 
 # target to build an object file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/grid/test/test_grid.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/grid/test/test_grid.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/grid/test/test_grid.cpp.o
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/grid/test/test_grid.cpp.o
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/grid/test/test_grid.i: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/grid/test/test_grid.cpp.i
@@ -589,7 +589,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/grid/test/tes
 
 # target to preprocess a source file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/grid/test/test_grid.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/grid/test/test_grid.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/grid/test/test_grid.cpp.i
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/grid/test/test_grid.cpp.i
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/grid/test/test_grid.s: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/grid/test/test_grid.cpp.s
@@ -598,7 +598,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/grid/test/tes
 
 # target to generate assembly for a file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/grid/test/test_grid.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/grid/test/test_grid.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/grid/test/test_grid.cpp.s
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/grid/test/test_grid.cpp.s
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/grid_stack/grid_stack_2D/test/test_grid_stack_2D.o: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/grid_stack/grid_stack_2D/test/test_grid_stack_2D.cpp.o
@@ -607,7 +607,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/grid_stack/gr
 
 # target to build an object file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/grid_stack/grid_stack_2D/test/test_grid_stack_2D.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/grid_stack/grid_stack_2D/test/test_grid_stack_2D.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/grid_stack/grid_stack_2D/test/test_grid_stack_2D.cpp.o
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/grid_stack/grid_stack_2D/test/test_grid_stack_2D.cpp.o
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/grid_stack/grid_stack_2D/test/test_grid_stack_2D.i: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/grid_stack/grid_stack_2D/test/test_grid_stack_2D.cpp.i
@@ -616,7 +616,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/grid_stack/gr
 
 # target to preprocess a source file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/grid_stack/grid_stack_2D/test/test_grid_stack_2D.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/grid_stack/grid_stack_2D/test/test_grid_stack_2D.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/grid_stack/grid_stack_2D/test/test_grid_stack_2D.cpp.i
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/grid_stack/grid_stack_2D/test/test_grid_stack_2D.cpp.i
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/grid_stack/grid_stack_2D/test/test_grid_stack_2D.s: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/grid_stack/grid_stack_2D/test/test_grid_stack_2D.cpp.s
@@ -625,7 +625,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/grid_stack/gr
 
 # target to generate assembly for a file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/grid_stack/grid_stack_2D/test/test_grid_stack_2D.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/grid_stack/grid_stack_2D/test/test_grid_stack_2D.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/grid_stack/grid_stack_2D/test/test_grid_stack_2D.cpp.s
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/grid_stack/grid_stack_2D/test/test_grid_stack_2D.cpp.s
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/offset_grid/offset_grid.o: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/offset_grid/offset_grid.cpp.o
@@ -634,7 +634,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/offset_grid/o
 
 # target to build an object file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/offset_grid/offset_grid.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/offset_grid/offset_grid.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/offset_grid/offset_grid.cpp.o
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/offset_grid/offset_grid.cpp.o
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/offset_grid/offset_grid.i: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/offset_grid/offset_grid.cpp.i
@@ -643,7 +643,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/offset_grid/o
 
 # target to preprocess a source file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/offset_grid/offset_grid.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/offset_grid/offset_grid.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/offset_grid/offset_grid.cpp.i
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/offset_grid/offset_grid.cpp.i
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/offset_grid/offset_grid.s: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/offset_grid/offset_grid.cpp.s
@@ -652,7 +652,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/offset_grid/o
 
 # target to generate assembly for a file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/offset_grid/offset_grid.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/offset_grid/offset_grid.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/offset_grid/offset_grid.cpp.s
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/containers/offset_grid/offset_grid.cpp.s
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/curve_drawable/curve_drawable.o: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/curve_drawable/curve_drawable.cpp.o
@@ -661,7 +661,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/curve_d
 
 # target to build an object file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/curve_drawable/curve_drawable.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/curve_drawable/curve_drawable.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/curve_drawable/curve_drawable.cpp.o
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/curve_drawable/curve_drawable.cpp.o
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/curve_drawable/curve_drawable.i: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/curve_drawable/curve_drawable.cpp.i
@@ -670,7 +670,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/curve_d
 
 # target to preprocess a source file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/curve_drawable/curve_drawable.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/curve_drawable/curve_drawable.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/curve_drawable/curve_drawable.cpp.i
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/curve_drawable/curve_drawable.cpp.i
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/curve_drawable/curve_drawable.s: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/curve_drawable/curve_drawable.cpp.s
@@ -679,7 +679,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/curve_d
 
 # target to generate assembly for a file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/curve_drawable/curve_drawable.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/curve_drawable/curve_drawable.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/curve_drawable/curve_drawable.cpp.s
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/curve_drawable/curve_drawable.cpp.s
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/mesh_drawable/mesh_drawable.o: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/mesh_drawable/mesh_drawable.cpp.o
@@ -688,7 +688,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/mesh_dr
 
 # target to build an object file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/mesh_drawable/mesh_drawable.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/mesh_drawable/mesh_drawable.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/mesh_drawable/mesh_drawable.cpp.o
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/mesh_drawable/mesh_drawable.cpp.o
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/mesh_drawable/mesh_drawable.i: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/mesh_drawable/mesh_drawable.cpp.i
@@ -697,7 +697,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/mesh_dr
 
 # target to preprocess a source file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/mesh_drawable/mesh_drawable.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/mesh_drawable/mesh_drawable.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/mesh_drawable/mesh_drawable.cpp.i
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/mesh_drawable/mesh_drawable.cpp.i
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/mesh_drawable/mesh_drawable.s: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/mesh_drawable/mesh_drawable.cpp.s
@@ -706,7 +706,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/mesh_dr
 
 # target to generate assembly for a file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/mesh_drawable/mesh_drawable.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/mesh_drawable/mesh_drawable.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/mesh_drawable/mesh_drawable.cpp.s
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/mesh_drawable/mesh_drawable.cpp.s
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/mesh_normal_drawable/mesh_normal_drawable.o: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/mesh_normal_drawable/mesh_normal_drawable.cpp.o
@@ -715,7 +715,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/mesh_no
 
 # target to build an object file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/mesh_normal_drawable/mesh_normal_drawable.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/mesh_normal_drawable/mesh_normal_drawable.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/mesh_normal_drawable/mesh_normal_drawable.cpp.o
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/mesh_normal_drawable/mesh_normal_drawable.cpp.o
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/mesh_normal_drawable/mesh_normal_drawable.i: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/mesh_normal_drawable/mesh_normal_drawable.cpp.i
@@ -724,7 +724,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/mesh_no
 
 # target to preprocess a source file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/mesh_normal_drawable/mesh_normal_drawable.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/mesh_normal_drawable/mesh_normal_drawable.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/mesh_normal_drawable/mesh_normal_drawable.cpp.i
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/mesh_normal_drawable/mesh_normal_drawable.cpp.i
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/mesh_normal_drawable/mesh_normal_drawable.s: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/mesh_normal_drawable/mesh_normal_drawable.cpp.s
@@ -733,7 +733,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/mesh_no
 
 # target to generate assembly for a file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/mesh_normal_drawable/mesh_normal_drawable.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/mesh_normal_drawable/mesh_normal_drawable.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/mesh_normal_drawable/mesh_normal_drawable.cpp.s
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/mesh_normal_drawable/mesh_normal_drawable.cpp.s
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/mesh_wireframe_drawable/mesh_wireframe_drawable.o: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/mesh_wireframe_drawable/mesh_wireframe_drawable.cpp.o
@@ -742,7 +742,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/mesh_wi
 
 # target to build an object file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/mesh_wireframe_drawable/mesh_wireframe_drawable.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/mesh_wireframe_drawable/mesh_wireframe_drawable.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/mesh_wireframe_drawable/mesh_wireframe_drawable.cpp.o
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/mesh_wireframe_drawable/mesh_wireframe_drawable.cpp.o
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/mesh_wireframe_drawable/mesh_wireframe_drawable.i: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/mesh_wireframe_drawable/mesh_wireframe_drawable.cpp.i
@@ -751,7 +751,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/mesh_wi
 
 # target to preprocess a source file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/mesh_wireframe_drawable/mesh_wireframe_drawable.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/mesh_wireframe_drawable/mesh_wireframe_drawable.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/mesh_wireframe_drawable/mesh_wireframe_drawable.cpp.i
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/mesh_wireframe_drawable/mesh_wireframe_drawable.cpp.i
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/mesh_wireframe_drawable/mesh_wireframe_drawable.s: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/mesh_wireframe_drawable/mesh_wireframe_drawable.cpp.s
@@ -760,7 +760,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/mesh_wi
 
 # target to generate assembly for a file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/mesh_wireframe_drawable/mesh_wireframe_drawable.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/mesh_wireframe_drawable/mesh_wireframe_drawable.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/mesh_wireframe_drawable/mesh_wireframe_drawable.cpp.s
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/mesh_wireframe_drawable/mesh_wireframe_drawable.cpp.s
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/segments_drawable/segments_drawable.o: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/segments_drawable/segments_drawable.cpp.o
@@ -769,7 +769,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/segment
 
 # target to build an object file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/segments_drawable/segments_drawable.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/segments_drawable/segments_drawable.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/segments_drawable/segments_drawable.cpp.o
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/segments_drawable/segments_drawable.cpp.o
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/segments_drawable/segments_drawable.i: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/segments_drawable/segments_drawable.cpp.i
@@ -778,7 +778,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/segment
 
 # target to preprocess a source file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/segments_drawable/segments_drawable.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/segments_drawable/segments_drawable.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/segments_drawable/segments_drawable.cpp.i
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/segments_drawable/segments_drawable.cpp.i
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/segments_drawable/segments_drawable.s: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/segments_drawable/segments_drawable.cpp.s
@@ -787,7 +787,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/segment
 
 # target to generate assembly for a file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/segments_drawable/segments_drawable.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/segments_drawable/segments_drawable.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/segments_drawable/segments_drawable.cpp.s
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/segments_drawable/segments_drawable.cpp.s
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/shading_parameters/shading_parameters.o: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/shading_parameters/shading_parameters.cpp.o
@@ -796,7 +796,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/shading
 
 # target to build an object file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/shading_parameters/shading_parameters.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/shading_parameters/shading_parameters.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/shading_parameters/shading_parameters.cpp.o
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/shading_parameters/shading_parameters.cpp.o
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/shading_parameters/shading_parameters.i: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/shading_parameters/shading_parameters.cpp.i
@@ -805,7 +805,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/shading
 
 # target to preprocess a source file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/shading_parameters/shading_parameters.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/shading_parameters/shading_parameters.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/shading_parameters/shading_parameters.cpp.i
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/shading_parameters/shading_parameters.cpp.i
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/shading_parameters/shading_parameters.s: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/shading_parameters/shading_parameters.cpp.s
@@ -814,7 +814,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/shading
 
 # target to generate assembly for a file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/shading_parameters/shading_parameters.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/shading_parameters/shading_parameters.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/shading_parameters/shading_parameters.cpp.s
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/shading_parameters/shading_parameters.cpp.s
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/trajectory_drawable/trajectory_drawable.o: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/trajectory_drawable/trajectory_drawable.cpp.o
@@ -823,7 +823,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/traject
 
 # target to build an object file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/trajectory_drawable/trajectory_drawable.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/trajectory_drawable/trajectory_drawable.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/trajectory_drawable/trajectory_drawable.cpp.o
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/trajectory_drawable/trajectory_drawable.cpp.o
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/trajectory_drawable/trajectory_drawable.i: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/trajectory_drawable/trajectory_drawable.cpp.i
@@ -832,7 +832,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/traject
 
 # target to preprocess a source file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/trajectory_drawable/trajectory_drawable.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/trajectory_drawable/trajectory_drawable.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/trajectory_drawable/trajectory_drawable.cpp.i
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/trajectory_drawable/trajectory_drawable.cpp.i
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/trajectory_drawable/trajectory_drawable.s: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/trajectory_drawable/trajectory_drawable.cpp.s
@@ -841,7 +841,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/traject
 
 # target to generate assembly for a file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/trajectory_drawable/trajectory_drawable.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/trajectory_drawable/trajectory_drawable.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/trajectory_drawable/trajectory_drawable.cpp.s
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/drawable/trajectory_drawable/trajectory_drawable.cpp.s
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/image/image.o: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/image/image.cpp.o
@@ -850,7 +850,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/image/image.o: U
 
 # target to build an object file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/image/image.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/image/image.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/image/image.cpp.o
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/image/image.cpp.o
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/image/image.i: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/image/image.cpp.i
@@ -859,7 +859,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/image/image.i: U
 
 # target to preprocess a source file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/image/image.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/image/image.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/image/image.cpp.i
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/image/image.cpp.i
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/image/image.s: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/image/image.cpp.s
@@ -868,7 +868,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/image/image.s: U
 
 # target to generate assembly for a file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/image/image.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/image/image.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/image/image.cpp.s
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/image/image.cpp.s
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/debug/debug.o: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/debug/debug.cpp.o
@@ -877,7 +877,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/debug/deb
 
 # target to build an object file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/debug/debug.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/debug/debug.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/debug/debug.cpp.o
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/debug/debug.cpp.o
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/debug/debug.i: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/debug/debug.cpp.i
@@ -886,7 +886,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/debug/deb
 
 # target to preprocess a source file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/debug/debug.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/debug/debug.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/debug/debug.cpp.i
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/debug/debug.cpp.i
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/debug/debug.s: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/debug/debug.cpp.s
@@ -895,7 +895,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/debug/deb
 
 # target to generate assembly for a file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/debug/debug.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/debug/debug.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/debug/debug.cpp.s
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/debug/debug.cpp.s
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/helper/opengl_helper.o: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/helper/opengl_helper.cpp.o
@@ -904,7 +904,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/helper/op
 
 # target to build an object file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/helper/opengl_helper.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/helper/opengl_helper.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/helper/opengl_helper.cpp.o
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/helper/opengl_helper.cpp.o
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/helper/opengl_helper.i: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/helper/opengl_helper.cpp.i
@@ -913,7 +913,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/helper/op
 
 # target to preprocess a source file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/helper/opengl_helper.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/helper/opengl_helper.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/helper/opengl_helper.cpp.i
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/helper/opengl_helper.cpp.i
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/helper/opengl_helper.s: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/helper/opengl_helper.cpp.s
@@ -922,7 +922,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/helper/op
 
 # target to generate assembly for a file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/helper/opengl_helper.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/helper/opengl_helper.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/helper/opengl_helper.cpp.s
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/helper/opengl_helper.cpp.s
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/shaders/shaders.o: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/shaders/shaders.cpp.o
@@ -931,7 +931,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/shaders/s
 
 # target to build an object file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/shaders/shaders.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/shaders/shaders.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/shaders/shaders.cpp.o
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/shaders/shaders.cpp.o
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/shaders/shaders.i: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/shaders/shaders.cpp.i
@@ -940,7 +940,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/shaders/s
 
 # target to preprocess a source file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/shaders/shaders.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/shaders/shaders.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/shaders/shaders.cpp.i
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/shaders/shaders.cpp.i
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/shaders/shaders.s: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/shaders/shaders.cpp.s
@@ -949,7 +949,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/shaders/s
 
 # target to generate assembly for a file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/shaders/shaders.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/shaders/shaders.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/shaders/shaders.cpp.s
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/shaders/shaders.cpp.s
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/texture/texture.o: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/texture/texture.cpp.o
@@ -958,7 +958,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/texture/t
 
 # target to build an object file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/texture/texture.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/texture/texture.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/texture/texture.cpp.o
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/texture/texture.cpp.o
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/texture/texture.i: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/texture/texture.cpp.i
@@ -967,7 +967,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/texture/t
 
 # target to preprocess a source file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/texture/texture.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/texture/texture.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/texture/texture.cpp.i
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/texture/texture.cpp.i
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/texture/texture.s: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/texture/texture.cpp.s
@@ -976,7 +976,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/texture/t
 
 # target to generate assembly for a file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/texture/texture.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/texture/texture.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/texture/texture.cpp.s
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/texture/texture.cpp.s
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/uniform/uniform.o: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/uniform/uniform.cpp.o
@@ -985,7 +985,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/uniform/u
 
 # target to build an object file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/uniform/uniform.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/uniform/uniform.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/uniform/uniform.cpp.o
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/uniform/uniform.cpp.o
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/uniform/uniform.i: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/uniform/uniform.cpp.i
@@ -994,7 +994,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/uniform/u
 
 # target to preprocess a source file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/uniform/uniform.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/uniform/uniform.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/uniform/uniform.cpp.i
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/uniform/uniform.cpp.i
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/uniform/uniform.s: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/uniform/uniform.cpp.s
@@ -1003,7 +1003,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/uniform/u
 
 # target to generate assembly for a file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/uniform/uniform.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/uniform/uniform.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/uniform/uniform.cpp.s
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/opengl/uniform/uniform.cpp.s
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/window/window.o: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/window/window.cpp.o
@@ -1012,7 +1012,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/window/window.o:
 
 # target to build an object file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/window/window.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/window/window.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/window/window.cpp.o
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/window/window.cpp.o
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/window/window.i: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/window/window.cpp.i
@@ -1021,7 +1021,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/window/window.i:
 
 # target to preprocess a source file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/window/window.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/window/window.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/window/window.cpp.i
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/window/window.cpp.i
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/window/window.s: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/window/window.cpp.s
@@ -1030,7 +1030,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/window/window.s:
 
 # target to generate assembly for a file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/window/window.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/window/window.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/window/window.cpp.s
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/display/window/window.cpp.s
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/files/files.o: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/files/files.cpp.o
@@ -1039,7 +1039,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/files/files.o: Users/cel
 
 # target to build an object file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/files/files.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/files/files.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/files/files.cpp.o
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/files/files.cpp.o
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/files/files.i: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/files/files.cpp.i
@@ -1048,7 +1048,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/files/files.i: Users/cel
 
 # target to preprocess a source file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/files/files.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/files/files.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/files/files.cpp.i
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/files/files.cpp.i
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/files/files.s: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/files/files.cpp.s
@@ -1057,7 +1057,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/files/files.s: Users/cel
 
 # target to generate assembly for a file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/files/files.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/files/files.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/files/files.cpp.s
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/files/files.cpp.s
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/camera_around_center/camera_around_center.o: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/camera_around_center/camera_around_center.cpp.o
@@ -1066,7 +1066,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/camer
 
 # target to build an object file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/camera_around_center/camera_around_center.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/camera_around_center/camera_around_center.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/camera_around_center/camera_around_center.cpp.o
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/camera_around_center/camera_around_center.cpp.o
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/camera_around_center/camera_around_center.i: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/camera_around_center/camera_around_center.cpp.i
@@ -1075,7 +1075,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/camer
 
 # target to preprocess a source file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/camera_around_center/camera_around_center.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/camera_around_center/camera_around_center.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/camera_around_center/camera_around_center.cpp.i
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/camera_around_center/camera_around_center.cpp.i
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/camera_around_center/camera_around_center.s: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/camera_around_center/camera_around_center.cpp.s
@@ -1084,7 +1084,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/camer
 
 # target to generate assembly for a file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/camera_around_center/camera_around_center.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/camera_around_center/camera_around_center.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/camera_around_center/camera_around_center.cpp.s
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/camera_around_center/camera_around_center.cpp.s
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/camera_base/camera_base.o: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/camera_base/camera_base.cpp.o
@@ -1093,7 +1093,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/camer
 
 # target to build an object file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/camera_base/camera_base.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/camera_base/camera_base.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/camera_base/camera_base.cpp.o
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/camera_base/camera_base.cpp.o
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/camera_base/camera_base.i: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/camera_base/camera_base.cpp.i
@@ -1102,7 +1102,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/camer
 
 # target to preprocess a source file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/camera_base/camera_base.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/camera_base/camera_base.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/camera_base/camera_base.cpp.i
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/camera_base/camera_base.cpp.i
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/camera_base/camera_base.s: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/camera_base/camera_base.cpp.s
@@ -1111,7 +1111,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/camer
 
 # target to generate assembly for a file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/camera_base/camera_base.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/camera_base/camera_base.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/camera_base/camera_base.cpp.s
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/camera_base/camera_base.cpp.s
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/camera_head/camera_head.o: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/camera_head/camera_head.cpp.o
@@ -1120,7 +1120,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/camer
 
 # target to build an object file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/camera_head/camera_head.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/camera_head/camera_head.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/camera_head/camera_head.cpp.o
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/camera_head/camera_head.cpp.o
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/camera_head/camera_head.i: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/camera_head/camera_head.cpp.i
@@ -1129,7 +1129,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/camer
 
 # target to preprocess a source file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/camera_head/camera_head.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/camera_head/camera_head.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/camera_head/camera_head.cpp.i
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/camera_head/camera_head.cpp.i
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/camera_head/camera_head.s: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/camera_head/camera_head.cpp.s
@@ -1138,7 +1138,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/camer
 
 # target to generate assembly for a file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/camera_head/camera_head.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/camera_head/camera_head.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/camera_head/camera_head.cpp.s
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/camera_head/camera_head.cpp.s
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/camera_spherical_coordinates/camera_spherical_coordinates.o: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/camera_spherical_coordinates/camera_spherical_coordinates.cpp.o
@@ -1147,7 +1147,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/camer
 
 # target to build an object file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/camera_spherical_coordinates/camera_spherical_coordinates.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/camera_spherical_coordinates/camera_spherical_coordinates.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/camera_spherical_coordinates/camera_spherical_coordinates.cpp.o
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/camera_spherical_coordinates/camera_spherical_coordinates.cpp.o
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/camera_spherical_coordinates/camera_spherical_coordinates.i: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/camera_spherical_coordinates/camera_spherical_coordinates.cpp.i
@@ -1156,7 +1156,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/camer
 
 # target to preprocess a source file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/camera_spherical_coordinates/camera_spherical_coordinates.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/camera_spherical_coordinates/camera_spherical_coordinates.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/camera_spherical_coordinates/camera_spherical_coordinates.cpp.i
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/camera_spherical_coordinates/camera_spherical_coordinates.cpp.i
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/camera_spherical_coordinates/camera_spherical_coordinates.s: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/camera_spherical_coordinates/camera_spherical_coordinates.cpp.s
@@ -1165,7 +1165,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/camer
 
 # target to generate assembly for a file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/camera_spherical_coordinates/camera_spherical_coordinates.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/camera_spherical_coordinates/camera_spherical_coordinates.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/camera_spherical_coordinates/camera_spherical_coordinates.cpp.s
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/camera_spherical_coordinates/camera_spherical_coordinates.cpp.s
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/common_functions/common_functions.o: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/common_functions/common_functions.cpp.o
@@ -1174,7 +1174,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/commo
 
 # target to build an object file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/common_functions/common_functions.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/common_functions/common_functions.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/common_functions/common_functions.cpp.o
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/common_functions/common_functions.cpp.o
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/common_functions/common_functions.i: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/common_functions/common_functions.cpp.i
@@ -1183,7 +1183,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/commo
 
 # target to preprocess a source file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/common_functions/common_functions.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/common_functions/common_functions.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/common_functions/common_functions.cpp.i
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/common_functions/common_functions.cpp.i
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/common_functions/common_functions.s: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/common_functions/common_functions.cpp.s
@@ -1192,7 +1192,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/commo
 
 # target to generate assembly for a file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/common_functions/common_functions.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/common_functions/common_functions.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/common_functions/common_functions.cpp.s
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/camera/common_functions/common_functions.cpp.s
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/glfw_interaction/glfw_interaction.o: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/glfw_interaction/glfw_interaction.cpp.o
@@ -1201,7 +1201,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/glfw_interac
 
 # target to build an object file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/glfw_interaction/glfw_interaction.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/glfw_interaction/glfw_interaction.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/glfw_interaction/glfw_interaction.cpp.o
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/glfw_interaction/glfw_interaction.cpp.o
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/glfw_interaction/glfw_interaction.i: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/glfw_interaction/glfw_interaction.cpp.i
@@ -1210,7 +1210,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/glfw_interac
 
 # target to preprocess a source file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/glfw_interaction/glfw_interaction.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/glfw_interaction/glfw_interaction.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/glfw_interaction/glfw_interaction.cpp.i
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/glfw_interaction/glfw_interaction.cpp.i
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/glfw_interaction/glfw_interaction.s: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/glfw_interaction/glfw_interaction.cpp.s
@@ -1219,7 +1219,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/glfw_interac
 
 # target to generate assembly for a file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/glfw_interaction/glfw_interaction.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/glfw_interaction/glfw_interaction.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/glfw_interaction/glfw_interaction.cpp.s
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/glfw_interaction/glfw_interaction.cpp.s
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/gui/gui.o: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/gui/gui.cpp.o
@@ -1228,7 +1228,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/gui/gui.o: U
 
 # target to build an object file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/gui/gui.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/gui/gui.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/gui/gui.cpp.o
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/gui/gui.cpp.o
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/gui/gui.i: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/gui/gui.cpp.i
@@ -1237,7 +1237,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/gui/gui.i: U
 
 # target to preprocess a source file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/gui/gui.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/gui/gui.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/gui/gui.cpp.i
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/gui/gui.cpp.i
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/gui/gui.s: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/gui/gui.cpp.s
@@ -1246,7 +1246,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/gui/gui.s: U
 
 # target to generate assembly for a file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/gui/gui.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/gui/gui.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/gui/gui.cpp.s
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/gui/gui.cpp.s
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/timer/timer_basic/timer_basic.o: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/timer/timer_basic/timer_basic.cpp.o
@@ -1255,7 +1255,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/timer/timer_
 
 # target to build an object file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/timer/timer_basic/timer_basic.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/timer/timer_basic/timer_basic.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/timer/timer_basic/timer_basic.cpp.o
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/timer/timer_basic/timer_basic.cpp.o
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/timer/timer_basic/timer_basic.i: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/timer/timer_basic/timer_basic.cpp.i
@@ -1264,7 +1264,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/timer/timer_
 
 # target to preprocess a source file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/timer/timer_basic/timer_basic.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/timer/timer_basic/timer_basic.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/timer/timer_basic/timer_basic.cpp.i
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/timer/timer_basic/timer_basic.cpp.i
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/timer/timer_basic/timer_basic.s: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/timer/timer_basic/timer_basic.cpp.s
@@ -1273,7 +1273,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/timer/timer_
 
 # target to generate assembly for a file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/timer/timer_basic/timer_basic.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/timer/timer_basic/timer_basic.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/timer/timer_basic/timer_basic.cpp.s
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/timer/timer_basic/timer_basic.cpp.s
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/timer/timer_event_periodic/timer_event_periodic.o: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/timer/timer_event_periodic/timer_event_periodic.cpp.o
@@ -1282,7 +1282,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/timer/timer_
 
 # target to build an object file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/timer/timer_event_periodic/timer_event_periodic.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/timer/timer_event_periodic/timer_event_periodic.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/timer/timer_event_periodic/timer_event_periodic.cpp.o
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/timer/timer_event_periodic/timer_event_periodic.cpp.o
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/timer/timer_event_periodic/timer_event_periodic.i: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/timer/timer_event_periodic/timer_event_periodic.cpp.i
@@ -1291,7 +1291,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/timer/timer_
 
 # target to preprocess a source file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/timer/timer_event_periodic/timer_event_periodic.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/timer/timer_event_periodic/timer_event_periodic.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/timer/timer_event_periodic/timer_event_periodic.cpp.i
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/timer/timer_event_periodic/timer_event_periodic.cpp.i
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/timer/timer_event_periodic/timer_event_periodic.s: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/timer/timer_event_periodic/timer_event_periodic.cpp.s
@@ -1300,7 +1300,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/timer/timer_
 
 # target to generate assembly for a file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/timer/timer_event_periodic/timer_event_periodic.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/timer/timer_event_periodic/timer_event_periodic.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/timer/timer_event_periodic/timer_event_periodic.cpp.s
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/timer/timer_event_periodic/timer_event_periodic.cpp.s
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/timer/timer_fps/timer_fps.o: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/timer/timer_fps/timer_fps.cpp.o
@@ -1309,7 +1309,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/timer/timer_
 
 # target to build an object file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/timer/timer_fps/timer_fps.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/timer/timer_fps/timer_fps.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/timer/timer_fps/timer_fps.cpp.o
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/timer/timer_fps/timer_fps.cpp.o
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/timer/timer_fps/timer_fps.i: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/timer/timer_fps/timer_fps.cpp.i
@@ -1318,7 +1318,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/timer/timer_
 
 # target to preprocess a source file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/timer/timer_fps/timer_fps.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/timer/timer_fps/timer_fps.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/timer/timer_fps/timer_fps.cpp.i
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/timer/timer_fps/timer_fps.cpp.i
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/timer/timer_fps/timer_fps.s: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/timer/timer_fps/timer_fps.cpp.s
@@ -1327,7 +1327,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/timer/timer_
 
 # target to generate assembly for a file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/timer/timer_fps/timer_fps.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/timer/timer_fps/timer_fps.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/timer/timer_fps/timer_fps.cpp.s
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/timer/timer_fps/timer_fps.cpp.s
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/timer/timer_interval/timer_interval.o: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/timer/timer_interval/timer_interval.cpp.o
@@ -1336,7 +1336,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/timer/timer_
 
 # target to build an object file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/timer/timer_interval/timer_interval.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/timer/timer_interval/timer_interval.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/timer/timer_interval/timer_interval.cpp.o
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/timer/timer_interval/timer_interval.cpp.o
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/timer/timer_interval/timer_interval.i: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/timer/timer_interval/timer_interval.cpp.i
@@ -1345,7 +1345,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/timer/timer_
 
 # target to preprocess a source file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/timer/timer_interval/timer_interval.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/timer/timer_interval/timer_interval.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/timer/timer_interval/timer_interval.cpp.i
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/timer/timer_interval/timer_interval.cpp.i
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/timer/timer_interval/timer_interval.s: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/timer/timer_interval/timer_interval.cpp.s
@@ -1354,7 +1354,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/timer/timer_
 
 # target to generate assembly for a file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/timer/timer_interval/timer_interval.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/timer/timer_interval/timer_interval.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/timer/timer_interval/timer_interval.cpp.s
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/timer/timer_interval/timer_interval.cpp.s
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/tracker/velocity_tracker/velocity_tracker.o: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/tracker/velocity_tracker/velocity_tracker.cpp.o
@@ -1363,7 +1363,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/tracker/velo
 
 # target to build an object file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/tracker/velocity_tracker/velocity_tracker.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/tracker/velocity_tracker/velocity_tracker.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/tracker/velocity_tracker/velocity_tracker.cpp.o
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/tracker/velocity_tracker/velocity_tracker.cpp.o
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/tracker/velocity_tracker/velocity_tracker.i: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/tracker/velocity_tracker/velocity_tracker.cpp.i
@@ -1372,7 +1372,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/tracker/velo
 
 # target to preprocess a source file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/tracker/velocity_tracker/velocity_tracker.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/tracker/velocity_tracker/velocity_tracker.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/tracker/velocity_tracker/velocity_tracker.cpp.i
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/tracker/velocity_tracker/velocity_tracker.cpp.i
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/tracker/velocity_tracker/velocity_tracker.s: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/tracker/velocity_tracker/velocity_tracker.cpp.s
@@ -1381,7 +1381,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/tracker/velo
 
 # target to generate assembly for a file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/tracker/velocity_tracker/velocity_tracker.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/tracker/velocity_tracker/velocity_tracker.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/tracker/velocity_tracker/velocity_tracker.cpp.s
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/interaction/tracker/velocity_tracker/velocity_tracker.cpp.s
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/affine/affine_rt/affine_rt.o: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/affine/affine_rt/affine_rt.cpp.o
@@ -1390,7 +1390,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/affine/affine_rt/af
 
 # target to build an object file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/affine/affine_rt/affine_rt.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/affine/affine_rt/affine_rt.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/affine/affine_rt/affine_rt.cpp.o
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/affine/affine_rt/affine_rt.cpp.o
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/affine/affine_rt/affine_rt.i: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/affine/affine_rt/affine_rt.cpp.i
@@ -1399,7 +1399,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/affine/affine_rt/af
 
 # target to preprocess a source file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/affine/affine_rt/affine_rt.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/affine/affine_rt/affine_rt.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/affine/affine_rt/affine_rt.cpp.i
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/affine/affine_rt/affine_rt.cpp.i
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/affine/affine_rt/affine_rt.s: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/affine/affine_rt/affine_rt.cpp.s
@@ -1408,7 +1408,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/affine/affine_rt/af
 
 # target to generate assembly for a file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/affine/affine_rt/affine_rt.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/affine/affine_rt/affine_rt.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/affine/affine_rt/affine_rt.cpp.s
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/affine/affine_rt/affine_rt.cpp.s
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/affine/affine_rts/affine_rts.o: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/affine/affine_rts/affine_rts.cpp.o
@@ -1417,7 +1417,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/affine/affine_rts/a
 
 # target to build an object file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/affine/affine_rts/affine_rts.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/affine/affine_rts/affine_rts.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/affine/affine_rts/affine_rts.cpp.o
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/affine/affine_rts/affine_rts.cpp.o
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/affine/affine_rts/affine_rts.i: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/affine/affine_rts/affine_rts.cpp.i
@@ -1426,7 +1426,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/affine/affine_rts/a
 
 # target to preprocess a source file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/affine/affine_rts/affine_rts.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/affine/affine_rts/affine_rts.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/affine/affine_rts/affine_rts.cpp.i
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/affine/affine_rts/affine_rts.cpp.i
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/affine/affine_rts/affine_rts.s: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/affine/affine_rts/affine_rts.cpp.s
@@ -1435,7 +1435,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/affine/affine_rts/a
 
 # target to generate assembly for a file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/affine/affine_rts/affine_rts.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/affine/affine_rts/affine_rts.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/affine/affine_rts/affine_rts.cpp.s
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/affine/affine_rts/affine_rts.cpp.s
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/frame/frame.o: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/frame/frame.cpp.o
@@ -1444,7 +1444,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/frame/frame.o: User
 
 # target to build an object file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/frame/frame.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/frame/frame.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/frame/frame.cpp.o
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/frame/frame.cpp.o
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/frame/frame.i: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/frame/frame.cpp.i
@@ -1453,7 +1453,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/frame/frame.i: User
 
 # target to preprocess a source file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/frame/frame.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/frame/frame.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/frame/frame.cpp.i
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/frame/frame.cpp.i
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/frame/frame.s: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/frame/frame.cpp.s
@@ -1462,7 +1462,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/frame/frame.s: User
 
 # target to generate assembly for a file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/frame/frame.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/frame/frame.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/frame/frame.cpp.s
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/frame/frame.cpp.s
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/interpolation/interpolation.o: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/interpolation/interpolation.cpp.o
@@ -1471,7 +1471,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/interpolation/inter
 
 # target to build an object file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/interpolation/interpolation.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/interpolation/interpolation.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/interpolation/interpolation.cpp.o
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/interpolation/interpolation.cpp.o
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/interpolation/interpolation.i: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/interpolation/interpolation.cpp.i
@@ -1480,7 +1480,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/interpolation/inter
 
 # target to preprocess a source file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/interpolation/interpolation.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/interpolation/interpolation.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/interpolation/interpolation.cpp.i
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/interpolation/interpolation.cpp.i
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/interpolation/interpolation.s: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/interpolation/interpolation.cpp.s
@@ -1489,7 +1489,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/interpolation/inter
 
 # target to generate assembly for a file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/interpolation/interpolation.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/interpolation/interpolation.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/interpolation/interpolation.cpp.s
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/interpolation/interpolation.cpp.s
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/matrix/matrix_stack/special_types/definition/special_types.o: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/matrix/matrix_stack/special_types/definition/special_types.cpp.o
@@ -1498,7 +1498,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/matrix/matrix_stack
 
 # target to build an object file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/matrix/matrix_stack/special_types/definition/special_types.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/matrix/matrix_stack/special_types/definition/special_types.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/matrix/matrix_stack/special_types/definition/special_types.cpp.o
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/matrix/matrix_stack/special_types/definition/special_types.cpp.o
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/matrix/matrix_stack/special_types/definition/special_types.i: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/matrix/matrix_stack/special_types/definition/special_types.cpp.i
@@ -1507,7 +1507,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/matrix/matrix_stack
 
 # target to preprocess a source file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/matrix/matrix_stack/special_types/definition/special_types.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/matrix/matrix_stack/special_types/definition/special_types.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/matrix/matrix_stack/special_types/definition/special_types.cpp.i
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/matrix/matrix_stack/special_types/definition/special_types.cpp.i
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/matrix/matrix_stack/special_types/definition/special_types.s: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/matrix/matrix_stack/special_types/definition/special_types.cpp.s
@@ -1516,7 +1516,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/matrix/matrix_stack
 
 # target to generate assembly for a file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/matrix/matrix_stack/special_types/definition/special_types.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/matrix/matrix_stack/special_types/definition/special_types.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/matrix/matrix_stack/special_types/definition/special_types.cpp.s
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/matrix/matrix_stack/special_types/definition/special_types.cpp.s
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/matrix/matrix_stack/special_types/mat4/mat4.o: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/matrix/matrix_stack/special_types/mat4/mat4.cpp.o
@@ -1525,7 +1525,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/matrix/matrix_stack
 
 # target to build an object file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/matrix/matrix_stack/special_types/mat4/mat4.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/matrix/matrix_stack/special_types/mat4/mat4.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/matrix/matrix_stack/special_types/mat4/mat4.cpp.o
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/matrix/matrix_stack/special_types/mat4/mat4.cpp.o
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/matrix/matrix_stack/special_types/mat4/mat4.i: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/matrix/matrix_stack/special_types/mat4/mat4.cpp.i
@@ -1534,7 +1534,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/matrix/matrix_stack
 
 # target to preprocess a source file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/matrix/matrix_stack/special_types/mat4/mat4.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/matrix/matrix_stack/special_types/mat4/mat4.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/matrix/matrix_stack/special_types/mat4/mat4.cpp.i
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/matrix/matrix_stack/special_types/mat4/mat4.cpp.i
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/matrix/matrix_stack/special_types/mat4/mat4.s: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/matrix/matrix_stack/special_types/mat4/mat4.cpp.s
@@ -1543,7 +1543,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/matrix/matrix_stack
 
 # target to generate assembly for a file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/matrix/matrix_stack/special_types/mat4/mat4.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/matrix/matrix_stack/special_types/mat4/mat4.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/matrix/matrix_stack/special_types/mat4/mat4.cpp.s
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/matrix/matrix_stack/special_types/mat4/mat4.cpp.s
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/matrix/test/test_matrix_stack.o: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/matrix/test/test_matrix_stack.cpp.o
@@ -1552,7 +1552,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/matrix/test/test_ma
 
 # target to build an object file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/matrix/test/test_matrix_stack.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/matrix/test/test_matrix_stack.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/matrix/test/test_matrix_stack.cpp.o
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/matrix/test/test_matrix_stack.cpp.o
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/matrix/test/test_matrix_stack.i: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/matrix/test/test_matrix_stack.cpp.i
@@ -1561,7 +1561,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/matrix/test/test_ma
 
 # target to preprocess a source file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/matrix/test/test_matrix_stack.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/matrix/test/test_matrix_stack.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/matrix/test/test_matrix_stack.cpp.i
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/matrix/test/test_matrix_stack.cpp.i
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/matrix/test/test_matrix_stack.s: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/matrix/test/test_matrix_stack.cpp.s
@@ -1570,7 +1570,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/matrix/test/test_ma
 
 # target to generate assembly for a file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/matrix/test/test_matrix_stack.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/matrix/test/test_matrix_stack.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/matrix/test/test_matrix_stack.cpp.s
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/matrix/test/test_matrix_stack.cpp.s
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/projection/projection.o: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/projection/projection.cpp.o
@@ -1579,7 +1579,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/projection/projecti
 
 # target to build an object file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/projection/projection.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/projection/projection.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/projection/projection.cpp.o
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/projection/projection.cpp.o
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/projection/projection.i: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/projection/projection.cpp.i
@@ -1588,7 +1588,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/projection/projecti
 
 # target to preprocess a source file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/projection/projection.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/projection/projection.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/projection/projection.cpp.i
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/projection/projection.cpp.i
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/projection/projection.s: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/projection/projection.cpp.s
@@ -1597,7 +1597,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/projection/projecti
 
 # target to generate assembly for a file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/projection/projection.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/projection/projection.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/projection/projection.cpp.s
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/projection/projection.cpp.s
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/quaternion/quaternion.o: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/quaternion/quaternion.cpp.o
@@ -1606,7 +1606,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/quaternion/quaterni
 
 # target to build an object file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/quaternion/quaternion.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/quaternion/quaternion.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/quaternion/quaternion.cpp.o
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/quaternion/quaternion.cpp.o
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/quaternion/quaternion.i: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/quaternion/quaternion.cpp.i
@@ -1615,7 +1615,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/quaternion/quaterni
 
 # target to preprocess a source file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/quaternion/quaternion.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/quaternion/quaternion.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/quaternion/quaternion.cpp.i
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/quaternion/quaternion.cpp.i
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/quaternion/quaternion.s: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/quaternion/quaternion.cpp.s
@@ -1624,7 +1624,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/quaternion/quaterni
 
 # target to generate assembly for a file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/quaternion/quaternion.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/quaternion/quaternion.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/quaternion/quaternion.cpp.s
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/quaternion/quaternion.cpp.s
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/rotation/rotation.o: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/rotation/rotation.cpp.o
@@ -1633,7 +1633,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/rotation/rotation.o
 
 # target to build an object file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/rotation/rotation.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/rotation/rotation.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/rotation/rotation.cpp.o
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/rotation/rotation.cpp.o
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/rotation/rotation.i: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/rotation/rotation.cpp.i
@@ -1642,7 +1642,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/rotation/rotation.i
 
 # target to preprocess a source file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/rotation/rotation.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/rotation/rotation.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/rotation/rotation.cpp.i
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/rotation/rotation.cpp.i
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/rotation/rotation.s: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/rotation/rotation.cpp.s
@@ -1651,7 +1651,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/rotation/rotation.s
 
 # target to generate assembly for a file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/rotation/rotation.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/rotation/rotation.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/rotation/rotation.cpp.s
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/rotation/rotation.cpp.s
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/rotation/test/test_rotation.o: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/rotation/test/test_rotation.cpp.o
@@ -1660,7 +1660,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/rotation/test/test_
 
 # target to build an object file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/rotation/test/test_rotation.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/rotation/test/test_rotation.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/rotation/test/test_rotation.cpp.o
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/rotation/test/test_rotation.cpp.o
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/rotation/test/test_rotation.i: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/rotation/test/test_rotation.cpp.i
@@ -1669,7 +1669,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/rotation/test/test_
 
 # target to preprocess a source file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/rotation/test/test_rotation.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/rotation/test/test_rotation.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/rotation/test/test_rotation.cpp.i
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/rotation/test/test_rotation.cpp.i
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/rotation/test/test_rotation.s: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/rotation/test/test_rotation.cpp.s
@@ -1678,7 +1678,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/rotation/test/test_
 
 # target to generate assembly for a file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/rotation/test/test_rotation.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/rotation/test/test_rotation.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/rotation/test/test_rotation.cpp.s
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/rotation/test/test_rotation.cpp.s
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/vec_mat/test/test_vec_mat.o: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/vec_mat/test/test_vec_mat.cpp.o
@@ -1687,7 +1687,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/vec_mat/test/test_v
 
 # target to build an object file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/vec_mat/test/test_vec_mat.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/vec_mat/test/test_vec_mat.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/vec_mat/test/test_vec_mat.cpp.o
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/vec_mat/test/test_vec_mat.cpp.o
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/vec_mat/test/test_vec_mat.i: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/vec_mat/test/test_vec_mat.cpp.i
@@ -1696,7 +1696,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/vec_mat/test/test_v
 
 # target to preprocess a source file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/vec_mat/test/test_vec_mat.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/vec_mat/test/test_vec_mat.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/vec_mat/test/test_vec_mat.cpp.i
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/vec_mat/test/test_vec_mat.cpp.i
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/vec_mat/test/test_vec_mat.s: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/vec_mat/test/test_vec_mat.cpp.s
@@ -1705,7 +1705,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/vec_mat/test/test_v
 
 # target to generate assembly for a file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/vec_mat/test/test_vec_mat.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/vec_mat/test/test_vec_mat.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/vec_mat/test/test_vec_mat.cpp.s
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/vec_mat/test/test_vec_mat.cpp.s
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/vec_mat/vec_mat.o: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/vec_mat/vec_mat.cpp.o
@@ -1714,7 +1714,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/vec_mat/vec_mat.o: 
 
 # target to build an object file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/vec_mat/vec_mat.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/vec_mat/vec_mat.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/vec_mat/vec_mat.cpp.o
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/vec_mat/vec_mat.cpp.o
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/vec_mat/vec_mat.i: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/vec_mat/vec_mat.cpp.i
@@ -1723,7 +1723,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/vec_mat/vec_mat.i: 
 
 # target to preprocess a source file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/vec_mat/vec_mat.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/vec_mat/vec_mat.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/vec_mat/vec_mat.cpp.i
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/vec_mat/vec_mat.cpp.i
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/vec_mat/vec_mat.s: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/vec_mat/vec_mat.cpp.s
@@ -1732,7 +1732,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/vec_mat/vec_mat.s: 
 
 # target to generate assembly for a file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/vec_mat/vec_mat.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/vec_mat/vec_mat.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/vec_mat/vec_mat.cpp.s
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/math/vec_mat/vec_mat.cpp.s
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shaders_preset/shaders_preset.o: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shaders_preset/shaders_preset.cpp.o
@@ -1741,7 +1741,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shaders_preset/shaders_p
 
 # target to build an object file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shaders_preset/shaders_preset.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shaders_preset/shaders_preset.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shaders_preset/shaders_preset.cpp.o
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shaders_preset/shaders_preset.cpp.o
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shaders_preset/shaders_preset.i: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shaders_preset/shaders_preset.cpp.i
@@ -1750,7 +1750,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shaders_preset/shaders_p
 
 # target to preprocess a source file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shaders_preset/shaders_preset.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shaders_preset/shaders_preset.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shaders_preset/shaders_preset.cpp.i
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shaders_preset/shaders_preset.cpp.i
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shaders_preset/shaders_preset.s: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shaders_preset/shaders_preset.cpp.s
@@ -1759,7 +1759,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shaders_preset/shaders_p
 
 # target to generate assembly for a file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shaders_preset/shaders_preset.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shaders_preset/shaders_preset.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shaders_preset/shaders_preset.cpp.s
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shaders_preset/shaders_preset.cpp.s
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/curve/curve.o: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/curve/curve.cpp.o
@@ -1768,7 +1768,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/curve/curve.o: Use
 
 # target to build an object file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/curve/curve.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/curve/curve.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/curve/curve.cpp.o
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/curve/curve.cpp.o
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/curve/curve.i: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/curve/curve.cpp.i
@@ -1777,7 +1777,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/curve/curve.i: Use
 
 # target to preprocess a source file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/curve/curve.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/curve/curve.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/curve/curve.cpp.i
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/curve/curve.cpp.i
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/curve/curve.s: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/curve/curve.cpp.s
@@ -1786,7 +1786,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/curve/curve.s: Use
 
 # target to generate assembly for a file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/curve/curve.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/curve/curve.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/curve/curve.cpp.s
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/curve/curve.cpp.s
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/intersection/intersection.o: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/intersection/intersection.cpp.o
@@ -1795,7 +1795,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/intersection/inter
 
 # target to build an object file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/intersection/intersection.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/intersection/intersection.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/intersection/intersection.cpp.o
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/intersection/intersection.cpp.o
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/intersection/intersection.i: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/intersection/intersection.cpp.i
@@ -1804,7 +1804,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/intersection/inter
 
 # target to preprocess a source file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/intersection/intersection.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/intersection/intersection.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/intersection/intersection.cpp.i
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/intersection/intersection.cpp.i
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/intersection/intersection.s: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/intersection/intersection.cpp.s
@@ -1813,7 +1813,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/intersection/inter
 
 # target to generate assembly for a file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/intersection/intersection.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/intersection/intersection.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/intersection/intersection.cpp.s
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/intersection/intersection.cpp.s
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/mesh/loader/obj/obj.o: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/mesh/loader/obj/obj.cpp.o
@@ -1822,7 +1822,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/mesh/loader/obj/ob
 
 # target to build an object file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/mesh/loader/obj/obj.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/mesh/loader/obj/obj.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/mesh/loader/obj/obj.cpp.o
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/mesh/loader/obj/obj.cpp.o
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/mesh/loader/obj/obj.i: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/mesh/loader/obj/obj.cpp.i
@@ -1831,7 +1831,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/mesh/loader/obj/ob
 
 # target to preprocess a source file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/mesh/loader/obj/obj.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/mesh/loader/obj/obj.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/mesh/loader/obj/obj.cpp.i
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/mesh/loader/obj/obj.cpp.i
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/mesh/loader/obj/obj.s: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/mesh/loader/obj/obj.cpp.s
@@ -1840,7 +1840,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/mesh/loader/obj/ob
 
 # target to generate assembly for a file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/mesh/loader/obj/obj.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/mesh/loader/obj/obj.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/mesh/loader/obj/obj.cpp.s
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/mesh/loader/obj/obj.cpp.s
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/mesh/primitive/mesh_primitive.o: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/mesh/primitive/mesh_primitive.cpp.o
@@ -1849,7 +1849,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/mesh/primitive/mes
 
 # target to build an object file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/mesh/primitive/mesh_primitive.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/mesh/primitive/mesh_primitive.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/mesh/primitive/mesh_primitive.cpp.o
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/mesh/primitive/mesh_primitive.cpp.o
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/mesh/primitive/mesh_primitive.i: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/mesh/primitive/mesh_primitive.cpp.i
@@ -1858,7 +1858,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/mesh/primitive/mes
 
 # target to preprocess a source file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/mesh/primitive/mesh_primitive.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/mesh/primitive/mesh_primitive.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/mesh/primitive/mesh_primitive.cpp.i
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/mesh/primitive/mesh_primitive.cpp.i
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/mesh/primitive/mesh_primitive.s: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/mesh/primitive/mesh_primitive.cpp.s
@@ -1867,7 +1867,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/mesh/primitive/mes
 
 # target to generate assembly for a file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/mesh/primitive/mesh_primitive.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/mesh/primitive/mesh_primitive.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/mesh/primitive/mesh_primitive.cpp.s
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/mesh/primitive/mesh_primitive.cpp.s
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/mesh/structure/mesh.o: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/mesh/structure/mesh.cpp.o
@@ -1876,7 +1876,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/mesh/structure/mes
 
 # target to build an object file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/mesh/structure/mesh.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/mesh/structure/mesh.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/mesh/structure/mesh.cpp.o
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/mesh/structure/mesh.cpp.o
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/mesh/structure/mesh.i: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/mesh/structure/mesh.cpp.i
@@ -1885,7 +1885,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/mesh/structure/mes
 
 # target to preprocess a source file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/mesh/structure/mesh.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/mesh/structure/mesh.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/mesh/structure/mesh.cpp.i
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/mesh/structure/mesh.cpp.i
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/mesh/structure/mesh.s: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/mesh/structure/mesh.cpp.s
@@ -1894,7 +1894,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/mesh/structure/mes
 
 # target to generate assembly for a file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/mesh/structure/mesh.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/mesh/structure/mesh.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/mesh/structure/mesh.cpp.s
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/mesh/structure/mesh.cpp.s
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/noise/noise.o: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/noise/noise.cpp.o
@@ -1903,7 +1903,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/noise/noise.o: Use
 
 # target to build an object file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/noise/noise.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/noise/noise.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/noise/noise.cpp.o
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/noise/noise.cpp.o
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/noise/noise.i: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/noise/noise.cpp.i
@@ -1912,7 +1912,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/noise/noise.i: Use
 
 # target to preprocess a source file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/noise/noise.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/noise/noise.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/noise/noise.cpp.i
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/noise/noise.cpp.i
 
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/noise/noise.s: Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/noise/noise.cpp.s
@@ -1921,7 +1921,7 @@ Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/noise/noise.s: Use
 
 # target to generate assembly for a file
 Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/noise/noise.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/noise/noise.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/noise/noise.cpp.s
 .PHONY : Users/celinehajjar/Desktop/3A/inf585/master/library/vcl/shape/noise/noise.cpp.s
 
 src/main.o: src/main.cpp.o
@@ -1930,7 +1930,7 @@ src/main.o: src/main.cpp.o
 
 # target to build an object file
 src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/src/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -1939,7 +1939,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/src/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -1948,8 +1948,116 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/src/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
+
+src/skeleton.o: src/skeleton.cpp.o
+
+.PHONY : src/skeleton.o
+
+# target to build an object file
+src/skeleton.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/src/skeleton.cpp.o
+.PHONY : src/skeleton.cpp.o
+
+src/skeleton.i: src/skeleton.cpp.i
+
+.PHONY : src/skeleton.i
+
+# target to preprocess a source file
+src/skeleton.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/src/skeleton.cpp.i
+.PHONY : src/skeleton.cpp.i
+
+src/skeleton.s: src/skeleton.cpp.s
+
+.PHONY : src/skeleton.s
+
+# target to generate assembly for a file
+src/skeleton.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/src/skeleton.cpp.s
+.PHONY : src/skeleton.cpp.s
+
+src/skeleton_drawable.o: src/skeleton_drawable.cpp.o
+
+.PHONY : src/skeleton_drawable.o
+
+# target to build an object file
+src/skeleton_drawable.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/src/skeleton_drawable.cpp.o
+.PHONY : src/skeleton_drawable.cpp.o
+
+src/skeleton_drawable.i: src/skeleton_drawable.cpp.i
+
+.PHONY : src/skeleton_drawable.i
+
+# target to preprocess a source file
+src/skeleton_drawable.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/src/skeleton_drawable.cpp.i
+.PHONY : src/skeleton_drawable.cpp.i
+
+src/skeleton_drawable.s: src/skeleton_drawable.cpp.s
+
+.PHONY : src/skeleton_drawable.s
+
+# target to generate assembly for a file
+src/skeleton_drawable.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/src/skeleton_drawable.cpp.s
+.PHONY : src/skeleton_drawable.cpp.s
+
+src/skinning.o: src/skinning.cpp.o
+
+.PHONY : src/skinning.o
+
+# target to build an object file
+src/skinning.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/src/skinning.cpp.o
+.PHONY : src/skinning.cpp.o
+
+src/skinning.i: src/skinning.cpp.i
+
+.PHONY : src/skinning.i
+
+# target to preprocess a source file
+src/skinning.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/src/skinning.cpp.i
+.PHONY : src/skinning.cpp.i
+
+src/skinning.s: src/skinning.cpp.s
+
+.PHONY : src/skinning.s
+
+# target to generate assembly for a file
+src/skinning.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/src/skinning.cpp.s
+.PHONY : src/skinning.cpp.s
+
+src/skinning_loader.o: src/skinning_loader.cpp.o
+
+.PHONY : src/skinning_loader.o
+
+# target to build an object file
+src/skinning_loader.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/src/skinning_loader.cpp.o
+.PHONY : src/skinning_loader.cpp.o
+
+src/skinning_loader.i: src/skinning_loader.cpp.i
+
+.PHONY : src/skinning_loader.i
+
+# target to preprocess a source file
+src/skinning_loader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/src/skinning_loader.cpp.i
+.PHONY : src/skinning_loader.cpp.i
+
+src/skinning_loader.s: src/skinning_loader.cpp.s
+
+.PHONY : src/skinning_loader.s
+
+# target to generate assembly for a file
+src/skinning_loader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/src/skinning_loader.cpp.s
+.PHONY : src/skinning_loader.cpp.s
 
 # Help Target
 help:
@@ -1959,7 +2067,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... 00_introduction"
+	@echo "... 06_skinning"
 	@echo "... Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/glad/src/glad.o"
 	@echo "... Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/glad/src/glad.i"
 	@echo "... Users/celinehajjar/Desktop/3A/inf585/master/library/third_party/src/glad/src/glad.s"
@@ -2161,6 +2269,18 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/skeleton.o"
+	@echo "... src/skeleton.i"
+	@echo "... src/skeleton.s"
+	@echo "... src/skeleton_drawable.o"
+	@echo "... src/skeleton_drawable.i"
+	@echo "... src/skeleton_drawable.s"
+	@echo "... src/skinning.o"
+	@echo "... src/skinning.i"
+	@echo "... src/skinning.s"
+	@echo "... src/skinning_loader.o"
+	@echo "... src/skinning_loader.i"
+	@echo "... src/skinning_loader.s"
 .PHONY : help
 
 

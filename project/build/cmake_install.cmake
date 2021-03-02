@@ -1,4 +1,4 @@
-# Install script for directory: /Users/celinehajjar/Desktop/3A/inf585/master/scenes/inf585/00_introduction
+# Install script for directory: /Users/celinehajjar/Desktop/3A/inf585/master/scenes/inf585/06_skinning
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/celinehajjar/Desktop/3A/inf585/master/scenes/inf585/00_introduction/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/celinehajjar/Desktop/3A/inf585/master/scenes/inf585/06_skinning/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

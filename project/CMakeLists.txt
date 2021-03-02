@@ -30,11 +30,12 @@ add_executable(${executable_name} ${src_files_vcl} ${src_files_third_party} ${sr
 if(UNIX)
    set(CMAKE_CXX_COMPILER g++)                      # Can switch to clang++ if prefered
    add_definitions(-g -O2 -std=c++14 -Wall -Wextra) # Can adapt compiler flags if needed
+   add_definitions(-Wno-sign-compare -Wno-type-limits) # Remove some warnings
 endif()
 
 # Set Compiler for Windows/Visual Studio
 if(MSVC)
-    add_definitions(/MP /wd4244)   # Parallel build (/MP)
+    add_definitions(/MP /W4 /wd4244 /wd4127)   # Parallel build (/MP)
     source_group(TREE ${CMAKE_SOURCE_DIR} FILES ${src_files})  #Allow to explore source directories as a tree in Visual Studio
 endif()
 

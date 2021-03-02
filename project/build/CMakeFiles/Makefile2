@@ -63,16 +63,16 @@ RM = /usr/local/Cellar/cmake/3.19.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/celinehajjar/Desktop/3A/inf585/master/scenes/inf585/00_introduction
+CMAKE_SOURCE_DIR = /Users/celinehajjar/Desktop/3A/inf585/master/scenes/inf585/06_skinning
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/celinehajjar/Desktop/3A/inf585/master/scenes/inf585/00_introduction/build
+CMAKE_BINARY_DIR = /Users/celinehajjar/Desktop/3A/inf585/master/scenes/inf585/06_skinning/build
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/00_introduction.dir/all
+all: CMakeFiles/06_skinning.dir/all
 
 .PHONY : all
 
@@ -82,36 +82,36 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/00_introduction.dir/clean
+clean: CMakeFiles/06_skinning.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/00_introduction.dir
+# Target rules for target CMakeFiles/06_skinning.dir
 
 # All Build rule for target.
-CMakeFiles/00_introduction.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/celinehajjar/Desktop/3A/inf585/master/scenes/inf585/00_introduction/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68 "Built target 00_introduction"
-.PHONY : CMakeFiles/00_introduction.dir/all
+CMakeFiles/06_skinning.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/celinehajjar/Desktop/3A/inf585/master/scenes/inf585/06_skinning/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72 "Built target 06_skinning"
+.PHONY : CMakeFiles/06_skinning.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/00_introduction.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/celinehajjar/Desktop/3A/inf585/master/scenes/inf585/00_introduction/build/CMakeFiles 68
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/00_introduction.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/celinehajjar/Desktop/3A/inf585/master/scenes/inf585/00_introduction/build/CMakeFiles 0
-.PHONY : CMakeFiles/00_introduction.dir/rule
+CMakeFiles/06_skinning.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/celinehajjar/Desktop/3A/inf585/master/scenes/inf585/06_skinning/build/CMakeFiles 72
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/06_skinning.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/celinehajjar/Desktop/3A/inf585/master/scenes/inf585/06_skinning/build/CMakeFiles 0
+.PHONY : CMakeFiles/06_skinning.dir/rule
 
 # Convenience name for target.
-00_introduction: CMakeFiles/00_introduction.dir/rule
+06_skinning: CMakeFiles/06_skinning.dir/rule
 
-.PHONY : 00_introduction
+.PHONY : 06_skinning
 
 # clean rule for target.
-CMakeFiles/00_introduction.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/00_introduction.dir/build.make CMakeFiles/00_introduction.dir/clean
-.PHONY : CMakeFiles/00_introduction.dir/clean
+CMakeFiles/06_skinning.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_skinning.dir/build.make CMakeFiles/06_skinning.dir/clean
+.PHONY : CMakeFiles/06_skinning.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
