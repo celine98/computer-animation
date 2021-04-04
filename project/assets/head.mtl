@@ -1,0 +1,90 @@
+# Blender MTL File: 'None'
+# Material Count: 8
+
+newmtl Harry_clothes1
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd /Users/celinehajjar/Downloads/5136_open3dmodel 2/Harry_Potter/Harry_clothes1_D.dds
+
+newmtl Harry_eyelash
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 1
+map_Kd /Users/celinehajjar/Downloads/5136_open3dmodel 2/Harry_Potter/Harry_eyelash_D.dds
+
+newmtl Harry_eyes
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd /Users/celinehajjar/Downloads/5136_open3dmodel 2/Harry_Potter/Harry_eye_D.dds
+
+newmtl Harry_glasses
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd /Users/celinehajjar/Downloads/5136_open3dmodel 2/Harry_Potter/Harry_glasses_D.dds
+
+newmtl Harry_hair
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 1
+map_Kd /Users/celinehajjar/Downloads/5136_open3dmodel 2/Harry_Potter/Harry_hair_D.dds
+
+newmtl Harry_head
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd /Users/celinehajjar/Downloads/5136_open3dmodel 2/Harry_Potter/Harry_head_D.dds
+
+newmtl Harry_lacrimal
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 1
+map_Kd /Users/celinehajjar/Downloads/5136_open3dmodel 2/Harry_Potter/Harry_lacrimal_D.dds
+
+newmtl Harry_mouth
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd /Users/celinehajjar/Downloads/5136_open3dmodel 2/Harry_Potter/Harry_mouth_D.dds
