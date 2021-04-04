@@ -1,3 +1,0 @@
-/Users/celinehajjar/Desktop/3A/inf585/master/scenes/inf585/06_skinning/build/CMakeFiles/rebuild_cache.dir
-/Users/celinehajjar/Desktop/3A/inf585/master/scenes/inf585/06_skinning/build/CMakeFiles/edit_cache.dir
-/Users/celinehajjar/Desktop/3A/inf585/master/scenes/inf585/06_skinning/build/CMakeFiles/06_skinning.dir
